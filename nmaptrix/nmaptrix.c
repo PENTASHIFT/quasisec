@@ -15,7 +15,7 @@
 #define NMAP_HEADER "Starting Nmap "
 
 struct OpenIP {
-char** open;
+    char** open;
     size_t* sizes;
     size_t openCnt;
 };
